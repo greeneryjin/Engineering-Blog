@@ -9,7 +9,7 @@
 
 ### 기술 블로그
 
-1. [nativeQuery VS JPQL](https://github.com/greeneryjin/-/edit/main/nativeQuery%20VS%20JPQL.md)
+1. [nativeQuery VS JPQL](https://github.com/greeneryjin/-/blob/main/nativeQuery%20VS%20JPQL.md)
 
 2. DTO <-> entity
 
