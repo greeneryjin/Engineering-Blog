@@ -67,4 +67,14 @@
 
 29. elasticSearch 활용한 엑셀 파일 분석
 
-30. aws를 사용한 3 tier 구축 
+30. aws를 사용한 3 tier 구축
+
+31. 지연로딩 개념 이해하기
+
+32. @Controller VS @RestController
+
+33. JPA 더티 체킹 사용하기
+
+34. SLF4J 도입 및 가이드
+
+35. 시큐리티 클래스 역할 정리
