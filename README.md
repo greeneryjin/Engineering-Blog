@@ -31,7 +31,7 @@
 
 11. LazyInitializationException 예외
 
-12. 동시성 이슈
+12. 동시성 이슈 제어
 
 13. 배포 트러블 슈팅
 
@@ -61,4 +61,10 @@
 
 26. AWS CodeDeploy
 
-27. 
+27. jococo & prometheus & grafana 이슈 해결
+
+28. 분산 환경에서 동시성 제어
+
+29. elasticSearch 활용한 엑셀 파일 분석
+
+30. aws를 사용한 3 tier 구축 
