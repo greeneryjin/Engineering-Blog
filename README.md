@@ -61,7 +61,7 @@
 
 26. AWS CodeDeploy
 
-27. jococo & prometheus & grafana 이슈 해결
+27. jmeter & prometheus & grafana 이슈 해결
 
 28. 분산 환경에서 동시성 제어
 
