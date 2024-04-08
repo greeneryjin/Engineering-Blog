@@ -15,7 +15,7 @@
 
 1. [nativeQuery VS JPQL](https://github.com/greeneryjin/-/blob/main/nativeQuery%20VS%20JPQL.md)
 
-2. DTO <-> entity 변환
+2. [DTO <-> entity 변환](https://github.com/greeneryjin/Engineering-Blog/blob/main/DTO%20%3C-%3E%20entity%20%EB%B3%80%ED%99%98.md)
 
 3. Querydsl를 사용한 동적 쿼리 구현
 
