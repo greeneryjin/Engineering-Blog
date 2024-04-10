@@ -33,7 +33,7 @@
 
 10. 테스트 코드 작성
 
-11. LazyInitializationException 예외
+11. [LazyInitializationException 예외](https://github.com/greeneryjin/Engineering-Blog/tree/main)
 
 12. 동시성 이슈 제어
 
