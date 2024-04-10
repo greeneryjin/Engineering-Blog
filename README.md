@@ -81,4 +81,4 @@
 
 34. SLF4J 도입 및 가이드
 
-35. 시큐리티 클래스 역할 정리
+35. [시큐리티 클래스 역할 정리](https://github.com/greeneryjin/Engineering-Blog/blob/main/%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%97%AD%ED%95%A0%20%EC%A0%95%EB%A6%AC.md)
