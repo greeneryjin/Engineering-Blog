@@ -73,7 +73,7 @@
 
 30. aws를 사용한 3 tier 구축
 
-31. 지연로딩 개념 이해하기
+31. [지연로딩]()
 
 32. @Controller VS @RestController
 
