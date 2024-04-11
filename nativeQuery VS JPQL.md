@@ -1,4 +1,6 @@
 
+NatvieQuery와 JPQL를 쓰면서 두 개의 차이가 궁금해서 정리했습니다.
+
 ### NatvieQuery 
 
 : NatvieQuery는 JPQL이 아닌 SQL를 직접 정의하여 사용하는 방식입니다. 
