@@ -1,4 +1,4 @@
-# 창업 & 프로젝트 기술 블로그
+# 프로젝트를 하면서 해결한 경험 블로그
 
 ## 창업 개발 환경
 
@@ -10,8 +10,6 @@
 
 
 ----
-
-### 기술 블로그
 
 1. [nativeQuery VS JPQL](https://github.com/greeneryjin/-/blob/main/nativeQuery%20VS%20JPQL.md)
 
