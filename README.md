@@ -1,4 +1,4 @@
-# 프로젝트를 하면서 해결한 경험 블로그
+# 프로젝트와 창업 당시 느낀 궁금증과 해결한 것을 녹인 블로그입니다.
 
 ## 창업 개발 환경
 
@@ -19,11 +19,11 @@
 
 4. Querydsl의 컬렉션 조회
 
-5. vpc 구현
+5. vpc 구축하는 이유
 
-6. AWS CDN 구현
+6. AWS CDN가 필요한 이유
 
-7. SPA와 SSR
+7. SPA와 SSR, csr은 무엇일까?
 
 8. Nginx와 도입 배경
 
@@ -39,9 +39,9 @@
 
 14. 기본 생성자 - Reflection
 
-15. git action 배포
+15. git action
 
-16. jenkins 배포
+16. jenkins
 
 17. swagger 도입(fox, doc)
 
@@ -49,9 +49,9 @@
 
 19. 파일 업로드 구현
 
-20. OPEN API 구현
+20. gradle vs maven
 
-21. Spring profile 분리(운영/개발)
+21. Spring profile 분리(운영/개발)해야 하는 이유
 
 22. CORS 에러(REACT & SpringBoot)
 
@@ -80,3 +80,11 @@
 34. SLF4J 도입 및 가이드
 
 35. [시큐리티 클래스 역할 정리](https://github.com/greeneryjin/Engineering-Blog/blob/main/%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%97%AD%ED%95%A0%20%EC%A0%95%EB%A6%AC.md)
+
+36. Docker?
+
+37. kubernetes?
+
+38. Querydsl?
+
+39. JWT와 쿠키&세션의 차이
