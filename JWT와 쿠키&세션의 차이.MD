@@ -15,11 +15,13 @@ HEADER.PAYLAD.SIGNATURE
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
+----
+
 ### Session & Cookie
 
 Session과 Cookie를 알기 전 HTTP 프로토콜의 특징을 알고 있어야 합니다. 
 
-#### HTTP 특정
+#### HTTP 특징
 
 `Connectionless`는 클라이언트의 요청에 맞는 응답을 보낸 후 연결을 끊어버리는 것을 의미합니다. 더 많은 요청을 처리할 수 있습니다. 
 
@@ -48,6 +50,8 @@ Session과 Cookie를 알기 전 HTTP 프로토콜의 특징을 알고 있어야 
 <img width="528" alt="1" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/a2b3da01-3796-4cc1-8a5c-1028c3cf2ad4">
 
 <br>
+
+----
 
 + Cookie
 
