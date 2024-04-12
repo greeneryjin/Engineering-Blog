@@ -51,7 +51,7 @@
 
 20. gradle vs maven
 
-21. Spring profile 분리(운영/개발)해야 하는 이유
+21. [Spring profile 분리(운영/개발)해야 하는 이유](https://github.com/greeneryjin/Engineering-Blog/blob/main/Spring%20profile%20%EB%B6%84%EB%A6%AC.md)
 
 22. CORS 에러(REACT & SpringBoot)
 
