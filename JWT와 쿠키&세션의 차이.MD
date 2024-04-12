@@ -43,6 +43,10 @@ Session과 Cookie를 알기 전 HTTP 프로토콜의 특징을 알고 있어야 
 
 + 각 클라이언트에 고유 세션 ID(Session ID)를 부여합니다.
 
+##### 동작 방식
+
+<img width="528" alt="1" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/a2b3da01-3796-4cc1-8a5c-1028c3cf2ad4">
+
 <br>
 
 + Cookie
