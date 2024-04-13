@@ -10,7 +10,7 @@ JPA를 사용하면서 JPA의 기능을 제대로 사용하지 못한 부분를 
     public PlantDic updatePlant(Long id, PlantChangeDto plantChangeDto){
         PlantDic plantDic = findByPlantId(id);
         plantDic.changePlant(plantChangeDto);
-				plantDicRepository.save(plantDic);
+	plantDicRepository.save(plantDic);
         return plantDic;
     }
 ```
