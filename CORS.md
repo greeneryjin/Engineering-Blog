@@ -66,5 +66,85 @@
 
 : preflight 요청 결과를 캐시 할 수 있는 시간을 나타내는 것으로 해당 시간동안은 preflight요청을 다시 하지 않게 됩니다.
 
+#### CORS가 발생하면 에러
+![1](https://github.com/greeneryjin/Engineering-Blog/assets/87289562/620f35b4-a9d5-401a-b5f7-e19aafe46f39)
 
-   
+**시큐리티 설정하기** 
+
+```java
+@Configuration
+public class CorsConfig {
+
+    @Bean
+    public CorsConfigurationSource corsFilter(){
+
+        //자바스크립트로 요청이 오면 처리
+        CorsConfiguration configuration = new CorsConfiguration();
+
+        configuration.setAllowCredentials(true);
+        configuration.addAllowedOriginPattern("*");
+        configuration.setAllowedMethods(Arrays.asList("GET","POST","PUT","PATCH","OPTIONS","DELETE"));
+        configuration.setAllowedHeaders(Arrays.asList("*"));
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", configuration);
+        return source;
+    }
+}
+```
+
+**allowedOriginPatterns** 
+
+: 허용 origin을 정해주는 것입니다. 하지만 저희는 NGINX를 사용해서 origin를 nginx.conf 파일에 명시하기 때문에 서버에서 설정하지 않아도 괜찮습니다. 
+
+```
+server {
+	listen 80;
+	server_name www.gardenersclub.com
+	location / {
+			proxy_pass http://front;
+	}
+	location /api {
+			proxy_pass http://back;
+	}
+}
+```
+
+**setAllowCredentials**
+
+: cors 요청이 올 경우, 신뢰하겠다는 것을 명시하는 것입니다. 
+
+**setAllowedMethods**
+
+: response의 메서드 요청을 설정해주는 것입니다. 
+
+**setAllowedHeaders**
+
+: cors를 허용할 헤더 목록을 설정해주는 것입니다. 
+
+설정 후 에러 발생 
+
+```
+When allowCredentials is true, allowedOrigins cannot contain the special value "*" 
+since that cannot be set on the "Access-Control-Allow-Origin" response header. 
+To allow credentials to a set of origins, 
+list them explicitly or consider using "allowedOriginPatterns" instead  
+```
+
+원래는 configuration.allowedOrigins를 사용했으나 시큐리티에서 찍힌 로그를 보니 configuration.addAllowedOriginPattern로 변경해서 사용해야 정상 작동한다고 합니다. 
+
+전역으로 사용하기 
+
+```java
+@Override
+    protected void configure(HttpSecurity http) throws Exception {
+
+        http    //react, spring boot 교차출처 허용
+                .authorizeRequests()
+                .requestMatchers(CorsUtils::isPreFlightRequest)
+                .permitAll()
+                .and()
+                .cors().configurationSource(corsConfig.corsFilter());
+}
+```
+
