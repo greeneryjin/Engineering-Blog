@@ -75,7 +75,7 @@
 
 32. @Controller VS @RestController
 
-33. JPA 더티 체킹 사용하기
+33. [JPA 변경 감지로 데이터 수정](https://github.com/greeneryjin/Engineering-Blog/blob/main/JPA%20%EB%B3%80%EA%B2%BD%20%EA%B0%90%EC%A7%80%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A0%95.MD)
 
 34. SLF4J 도입 및 가이드
 
@@ -89,5 +89,4 @@
 
 39. [JWT와 쿠키&세션의 차이](https://github.com/greeneryjin/Engineering-Blog/blob/main/JWT%EC%99%80%20%EC%BF%A0%ED%82%A4%26%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD)
 
-40. [JPA 변경 감지로 데이터 수정](https://github.com/greeneryjin/Engineering-Blog/blob/main/JPA%20%EB%B3%80%EA%B2%BD%20%EA%B0%90%EC%A7%80%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EC%A0%95.MD)
 
