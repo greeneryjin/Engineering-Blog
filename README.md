@@ -88,3 +88,6 @@
 38. Querydsl?
 
 39. [JWT와 쿠키&세션의 차이](https://github.com/greeneryjin/Engineering-Blog/blob/main/JWT%EC%99%80%20%EC%BF%A0%ED%82%A4%26%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD)
+
+40. JPA 변경 감지로 데이터 수정
+
