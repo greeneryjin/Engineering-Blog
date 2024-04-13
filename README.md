@@ -23,7 +23,7 @@
 
 6. AWS CDN가 필요한 이유
 
-7. SPA와 SSR, csr은 무엇일까?
+7. SPA와 SSR, CSR은 무엇일까?
 
 8. Nginx와 도입 배경
 
