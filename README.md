@@ -69,7 +69,7 @@
 
 29. elasticSearch 활용한 엑셀 파일 분석
 
-30. aws를 사용한 3 tier 구축
+30. [aws를 사용한 3 tier 구축]()
 
 31. [지연로딩]()
 
@@ -89,5 +89,5 @@
 
 39. [JWT와 쿠키&세션의 차이](https://github.com/greeneryjin/Engineering-Blog/blob/main/JWT%EC%99%80%20%EC%BF%A0%ED%82%A4%26%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD)
 
-40. [3 tier 도입하는 이유]()
+40. [3 tier 도입하는 이유](https://github.com/greeneryjin/Engineering-Blog/blob/main/3%20tier%20%EB%8F%84%EC%9E%85%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
 
