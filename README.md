@@ -1,5 +1,15 @@
 # 프로젝트와 창업 당시 느낀 궁금증과 해결한 것을 녹인 블로그입니다.
 
+### 인프라 환경
+
+AWS VPC, AWS Route53, AWS CloudFront(CDN), AWS CloudWatch, AWS ACM, AWS CodeDeploy, ALB, NLB, S3
+
+<br>
+
+### CICD
+
+Jenkins, GitAction
+
 ## 창업 개발 환경
 
 ![기술세미나](https://github.com/greeneryjin/Engineering-Blog/assets/87289562/c22da220-21ed-4e01-89be-6f35c3fb41ce)
@@ -7,7 +17,6 @@
 ## 프로젝트 개발 환경(늘솔길 & 우리FIS & 그리너리)
 
 ![기술세미나1](https://github.com/greeneryjin/Concurrency_issue/assets/87289562/004400a6-868d-4365-8b11-35fad4dc6935)
-
 
 ----
 
@@ -39,9 +48,9 @@
 
 14. 기본 생성자 - Reflection
 
-15. git action
+15. Git action
 
-16. jenkins
+16. Jenkins
 
 17. swagger 도입(fox, doc)
 
@@ -63,9 +72,9 @@
 
 26. AWS CodeDeploy
 
-27. jmeter & prometheus & grafana 이슈 해결
+27. Jmeter & Prometheus & Grafana 이슈 해결
 
-28. 분산 환경에서 동시성 제어
+28. [분산 환경에서 동시성 제어](https://github.com/greeneryjin/Concurrency_issue)
 
 29. elasticSearch 활용한 엑셀 파일 분석
 
