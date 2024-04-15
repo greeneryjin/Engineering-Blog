@@ -100,6 +100,10 @@ Jenkins, GitAction
 
 40. [3 tier 도입하는 이유](https://github.com/greeneryjin/Engineering-Blog/blob/main/3%20tier%20%EB%8F%84%EC%9E%85%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
 
-41. [JDK 8, 11, 17의 차이]()
+41. [JDK 8, 11, 17의 차이](https://github.com/greeneryjin/Engineering-Blog/blob/main/JDK%208%2C%2011%2C%2017%EC%9D%98%20%EC%B0%A8%EC%9D%B4.MD)
 
 41. [도메인 인증 과정 및 AWS 설정](https://github.com/greeneryjin/Engineering-Blog/blob/main/%EB%8F%84%EB%A9%94%EC%9D%B8%20%EC%9D%B8%EC%A6%9D%20%EA%B3%BC%EC%A0%95%20%EB%B0%8F%20AWS%20%EC%84%A4%EC%A0%95.MD)
+
+42. AWS Bastion host 접근 방법
+
+43. AWS SSM 설정 방법
