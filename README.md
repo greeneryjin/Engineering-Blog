@@ -102,4 +102,4 @@ Jenkins, GitAction
 
 41. [JDK 8, 11, 17의 차이]()
 
-41. [도메인 인증 과정 및 AWS 설정]()
+41. [도메인 인증 과정 및 AWS 설정](https://github.com/greeneryjin/Engineering-Blog/blob/main/%EB%8F%84%EB%A9%94%EC%9D%B8%20%EC%9D%B8%EC%A6%9D%20%EA%B3%BC%EC%A0%95%20%EB%B0%8F%20AWS%20%EC%84%A4%EC%A0%95.MD)
