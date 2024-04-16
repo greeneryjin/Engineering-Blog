@@ -107,3 +107,5 @@ Jenkins, GitAction
 42. AWS Bastion host 접근 방법
 
 43. AWS SSM 설정 방법
+
+44. [AWS WAF로 방화벽 구성하기]()
