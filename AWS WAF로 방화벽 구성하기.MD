@@ -20,3 +20,24 @@ WAF가 요청을 막는 것을 확인할 수 있습니다.
 
 ### 해외IP 차단하기
 
+특정 국가에서 지속적으로 접속을 하려는 시도가 있었기 때문에 ip를 차단하려고 합니다.
+
+1. rule 추가
+
+2. 빌더 선택
+
+3. 이름 작성
+
+4. Inspect
+
+5. Originates from a country in 선택
+
+6. 차단할 국가 선택
+
+<br>
+
+ip가 차단되는 것을 확인할 수 있습니다.
+
+<img width="632" alt="1" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/4ffcfd7d-3180-4db8-8c40-c5e98f6c39d3">
+
+
