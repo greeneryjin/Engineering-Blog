@@ -113,3 +113,5 @@ Jenkins, GitAction
 45. [React와 SpringBoot 통신하는 방법]()
 
 46. docekr -p와 expose의 차이, dockerfile 명령어 정리
+
+47. [ALB와 NLB의 차이]()
