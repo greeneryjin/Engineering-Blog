@@ -10,11 +10,7 @@ AWS VPC, AWS Route53, AWS CloudFront(CDN), AWS CloudWatch, AWS ACM, AWS CodeDepl
 
 Jenkins, GitAction
 
-## 창업 개발 환경
-
-![기술세미나](https://github.com/greeneryjin/Engineering-Blog/assets/87289562/c22da220-21ed-4e01-89be-6f35c3fb41ce)
-
-## 프로젝트 개발 환경(늘솔길 & 우리FIS & 그리너리)
+## 공부했던 개발 환경(늘솔길 & 우리FIS & 가드너스클럽)
 
 ![Untitled (6)](https://github.com/greeneryjin/Engineering-Blog/assets/87289562/277998e1-4404-4f86-a105-77f69a9ed43c)
 
