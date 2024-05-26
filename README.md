@@ -16,7 +16,7 @@ Jenkins, GitAction
 
 ## 프로젝트 개발 환경(늘솔길 & 우리FIS & 그리너리)
 
-![기술세미나1](https://github.com/greeneryjin/Concurrency_issue/assets/87289562/004400a6-868d-4365-8b11-35fad4dc6935)
+![Untitled (6)](https://github.com/greeneryjin/Engineering-Blog/assets/87289562/277998e1-4404-4f86-a105-77f69a9ed43c)
 
 ----
 
