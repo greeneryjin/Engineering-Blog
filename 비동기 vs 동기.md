@@ -6,13 +6,17 @@
 
 <img width="800" alt="1" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/e442dd76-3df6-434c-b042-62ccc1ec5647">
 
-1. 
+1. Application 내부 thread가 kernel에 I/O요청
 
-2. 
+2. Read blocking으로 system call 호출
 
-3. 
+3. kernel에서 I/O 읽기
 
-4.
+4. kernel에서 작업 하는 동안 thread는 blocking
+
+5. kernel에서 읽기 작업이 끝나면 kernel space에서 user space로 데이터 전송
+
+6. thread는 blocking이 끝나고 요청을 완료함 
 
 <br>
 
@@ -20,19 +24,34 @@
 
 + 작업 요청 이후 결과는 나중에 필요할 때 전달받습니다.
 
-+ 요청한 작업 결과를 기다리지 않습니다.
++ 요청한 작업 결과를 기다리지 않고 즉시 요청합니다. 
 
 + 중간중간 필요하면 상태 확인은 해볼 수 있습니다. (polling)
 
-<img width="800" alt="2" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/811a456e-c064-4b93-ac57-72108ed7edce">
+<img width="800" alt="2" src="https://github.com/greeneryjin/Engineering-Blog/assets/87289562/7ce60f0d-f13b-406e-97d0-259b5c6875d5">
 
-1.
+1. Application 내부 thread가 kernel에 I/O요청
 
-2. 
+2. Read non-blocking으로 system call 호출
 
-3. 
+3. kernel에서 즉시 -1(리눅스 요청 값)와 EAGAIN or EWOULDBLOCK 에러 코드 함께 요청을 전달 
 
-4.
+4. kernel에서 작업 하는 동안 thread는 작업을 진행함 
+
+5. kernel에서 읽기 작업 종료
+
+6. thread가 Read non-blocking으로 system call 호출
+
+7. kernel의 kernel space에서 user space로 데이터 전송
+
+8. thread는 작업을 함
+
+
+### 특징 
+
+논-블로킹할 때는 빨간 동그라미처럼 시간의 딜레이가 발생하기 때문에 블로킹방식보다 느릴 수 있습니다. 
+
+위 그림에서도 작업이 끝났는지 계속 확인해야하기 때문에 CPU를 낭비할 수 있습니다.  
 
 <br>
 
@@ -50,5 +69,3 @@
 
 싱글 스레드도 non-block으로 비동기로 동작하게 되면 여러 작업을 동시에 처리할 수 있습니다.
 
-
-msa에서 
