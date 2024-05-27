@@ -42,7 +42,7 @@ Jenkins, GitAction
 
 14. [Spring profile 분리(운영/개발)해야 하는 이유](https://github.com/greeneryjin/Engineering-Blog/blob/main/Spring%20profile%20%EB%B6%84%EB%A6%AC.md)
 
-15. SOP & CORS
+15. [SOP & CORS](https://github.com/greeneryjin/Engineering-Blog/blob/main/CORS.md)
 
 16. [prometheus & grafana 도입](https://github.com/greeneryjin/Engineering-Blog/blob/main/prometheus%20%26%20grafana%20%EB%8F%84%EC%9E%85.md)
 
