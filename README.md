@@ -12,7 +12,7 @@ AWS VPC, AWS Route53, AWS CloudFront(CDN), AWS CloudWatch, AWS ACM, AWS CodeDepl
   
 - [Join]()
   
-- [INDEX]
+- [INDEX]()
 
 
 ### CICD
